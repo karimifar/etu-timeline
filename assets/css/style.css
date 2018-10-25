@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 100px;
+}
+
+.inst-block{
+    padding: 20px;
+    padding-top: 0;
+    border-right: 1px solid;
+    width: 50%;
+}
+
+.inst-name{
+    /* width: 100%; */
+    transition: all 0.2s ease-in-out;
+}
+
+.collapse{
+    /* width: 100%; */
+}
