@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: 'lato', sans-serif;
 }
 
 body{
@@ -9,18 +10,33 @@ body{
     margin:0;
 
 }
-
+h2{
+    font-family: 'oswald',  sans-serif;
+    font-size: 24px;
+    color: #E35205;
+}
 .mycontainer{
-    max-width: 100%;
+    width: 60%;
+    min-width: 600px;
+    margin: 0 auto;
     overflow-x:hidden;
 }
 
+.mywrapper:hover .year{
+    background-color: #E35205;
+    transition: all 0.1s ease-in-out;
+}
+/* 
+.mywrapper:hover{
+    transition: all 0.2s ease-in-out;
+    border-radius: 20px;
+} */
 
 .content-wrap{
-    margin-top:10px;
+    margin-top:20px;
 }
 .inst-block-l{
-    padding: 20px;
+    padding: 40px;
     padding-top: 60px;
     padding-right:50px;
     border-right: 1px solid;
@@ -35,13 +51,16 @@ body{
     position: absolute !important;
     top:10px;
     right:-27px;
-    background-color: blue;
+    background-color: #005F86;
     border-radius: 50px;
     padding: 10px;
     color: white;
 }
+.year{
+    margin-top:10px;
+}
 .inst-block-r{
-    padding: 20px;
+    padding: 40px;
     padding-top: 60px;
     padding-left:50px;
     border-left: 1px solid;
@@ -52,7 +71,7 @@ body{
     position: absolute;
     top:10px;
     left:-27px;
-    background-color: blue;
+    background-color: #005F86;
     border-radius: 50px;
     padding: 10px;
     color: white;
@@ -64,7 +83,21 @@ body{
 
 .inst-name img{
     width: 150px;
+    filter: grayscale(100%);
+    transition: all 0.2s ease-in-out;
+}
+
+.inst-name img:hover{
+    filter: grayscale(0%);
 }
 .mywrapper-l .inst-name a {
     text-align: right
+}
+
+.expanded{
+    padding-top: 20px;
+}
+
+.expanded p {
+    font-size: 14px;
 }
