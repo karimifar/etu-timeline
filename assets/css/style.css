@@ -24,6 +24,7 @@ h2{
 
 .mywrapper:hover .year{
     background-color: #E35205;
+    transform: scale(1.1);
     transition: all 0.1s ease-in-out;
 }
 /* 
@@ -100,4 +101,8 @@ h2{
 
 .expanded p {
     font-size: 14px;
+}
+
+.clicked img{
+    filter: grayscale(0%);
 }
