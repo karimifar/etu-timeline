@@ -16,10 +16,9 @@ h2{
     color: #E35205;
 }
 .mycontainer{
-    width: 60%;
+    width: 100%;
     min-width: 600px;
-    margin: 0 auto;
-    overflow-x:hidden;
+    margin: 0;
 }
 
 .mywrapper:hover .year{
